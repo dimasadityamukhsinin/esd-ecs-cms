@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_editor_verbs",
+  "info": {
+    "displayName": "Verb"
+  },
+  "options": {},
+  "attributes": {
+    "Answer": {
+      "type": "string"
+    },
+    "Question": {
+      "type": "string"
+    }
+  }
+}

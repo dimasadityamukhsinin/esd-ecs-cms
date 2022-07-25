@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_editor_drag_and_drops",
+  "info": {
+    "displayName": "Drag And Drop"
+  },
+  "options": {},
+  "attributes": {
+    "Drag": {
+      "displayName": "Drag",
+      "type": "component",
+      "repeatable": true,
+      "component": "dnd.drag"
+    },
+    "Drop": {
+      "displayName": "Drop",
+      "type": "component",
+      "repeatable": true,
+      "component": "dnd.drop"
+    }
+  }
+}

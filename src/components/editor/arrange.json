@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_editor_arranges",
+  "info": {
+    "displayName": "Arrange"
+  },
+  "options": {},
+  "attributes": {
+    "Arrange": {
+      "displayName": "Arrange",
+      "type": "component",
+      "repeatable": true,
+      "component": "arrange.arrange"
+    }
+  }
+}

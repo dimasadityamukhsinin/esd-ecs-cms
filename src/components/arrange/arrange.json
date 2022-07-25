@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_arrange_arranges",
+  "info": {
+    "displayName": "Arrange"
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "integer"
+    },
+    "Content": {
+      "type": "string"
+    }
+  }
+}

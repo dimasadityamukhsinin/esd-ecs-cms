@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moduls",
+  "info": {
+    "singularName": "modul",
+    "pluralName": "moduls",
+    "displayName": "Modul",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "SEO_Description": {
+      "type": "string"
+    },
+    "SEO_Keywords": {
+      "type": "string"
+    },
+    "SEO_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Editor": {
+      "type": "dynamiczone",
+      "components": [
+        "editor.arrange",
+        "editor.content",
+        "editor.drag-and-drop",
+        "editor.fill-in-the-blank",
+        "editor.stack-with-drag-and-drop",
+        "editor.title",
+        "editor.youtube"
+      ]
+    }
+  }
+}

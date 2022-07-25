@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_dnd_drags",
+  "info": {
+    "displayName": "Drag"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "string"
+    }
+  }
+}

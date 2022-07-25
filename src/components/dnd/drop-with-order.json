@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dnd_drop_with_orders",
+  "info": {
+    "displayName": "Drop with order"
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "integer"
+    },
+    "Question": {
+      "type": "richtext"
+    },
+    "Answer": {
+      "type": "richtext"
+    }
+  }
+}

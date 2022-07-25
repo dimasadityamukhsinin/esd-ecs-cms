@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dnd_drops",
+  "info": {
+    "displayName": "Drop"
+  },
+  "options": {},
+  "attributes": {
+    "Key": {
+      "type": "string"
+    },
+    "Question": {
+      "type": "richtext"
+    },
+    "Answer": {
+      "type": "richtext"
+    }
+  }
+}

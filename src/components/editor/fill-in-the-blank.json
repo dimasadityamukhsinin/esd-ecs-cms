@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_editor_fill_in_the_blanks",
+  "info": {
+    "displayName": "Fill in the blank"
+  },
+  "options": {},
+  "attributes": {
+    "Verb": {
+      "type": "string"
+    },
+    "question_and_answer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "editor.verb"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
