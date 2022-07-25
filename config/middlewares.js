@@ -9,4 +9,12 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
+  {
+    gzip: {
+      enabled: true,
+      options: {
+        br: false
+      }
+    },
+  }
 ];
