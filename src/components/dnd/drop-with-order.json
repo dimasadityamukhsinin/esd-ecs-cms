@@ -1,7 +1,8 @@
 {
   "collectionName": "components_dnd_drop_with_orders",
   "info": {
-    "displayName": "Drop with order"
+    "displayName": "Drag with order",
+    "description": ""
   },
   "options": {},
   "attributes": {

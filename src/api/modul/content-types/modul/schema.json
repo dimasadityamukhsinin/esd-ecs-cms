@@ -26,14 +26,15 @@
       "type": "string"
     },
     "SEO_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Editor": {
       "type": "dynamiczone",
@@ -46,6 +47,23 @@
         "editor.title",
         "editor.youtube"
       ]
+    },
+    "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Short_Description": {
+      "type": "text"
+    },
+    "Assignment_Deadline": {
+      "type": "date"
     }
   }
 }
