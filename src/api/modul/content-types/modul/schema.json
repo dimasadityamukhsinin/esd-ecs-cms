@@ -64,6 +64,12 @@
     },
     "Assignment_Deadline": {
       "type": "date"
+    },
+    "First_Name": {
+      "type": "string"
+    },
+    "Last_Name": {
+      "type": "string"
     }
   }
 }
