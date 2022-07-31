@@ -64,6 +64,17 @@
     },
     "Assignment_Deadline": {
       "type": "date"
+    },
+    "Missed": {
+      "displayName": "Missed",
+      "type": "component",
+      "repeatable": false,
+      "component": "editor.missed"
+    },
+    "Completed": {
+      "type": "component",
+      "repeatable": true,
+      "component": "editor.completed"
     }
   }
 }

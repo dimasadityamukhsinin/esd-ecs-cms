@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_editor_completed_contents",
+  "info": {
+    "displayName": "Completed_Content"
+  },
+  "options": {},
+  "attributes": {
+    "Email": {
+      "type": "email"
+    },
+    "Date": {
+      "type": "date"
+    }
+  }
+}

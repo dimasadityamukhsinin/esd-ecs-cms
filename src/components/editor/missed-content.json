@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_editor_missed_contents",
+  "info": {
+    "displayName": "Missed_Content"
+  },
+  "options": {},
+  "attributes": {
+    "Email": {
+      "type": "email"
+    }
+  }
+}
