@@ -4,7 +4,7 @@
  * api/password/controllers/password.js
  */
 
-const { sanitizeEntity } = require('strapi-utils');
+const { sanitizeEntity } = require('@strapi/utils');
 const formatError = error => [
   { messages: [{ id: error.id, message: error.message, field: error.field }] },
 ];
