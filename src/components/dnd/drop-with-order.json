@@ -10,10 +10,10 @@
       "type": "integer"
     },
     "Question": {
-      "type": "richtext"
+      "type": "text"
     },
     "Answer": {
-      "type": "richtext"
+      "type": "text"
     }
   }
 }
