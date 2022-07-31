@@ -1,9 +1,12 @@
 module.exports = {
   routes: [
    {
-      "method": "POST",
-      "path": "/password",
-      "handler": "password.index"
+      method: "POST",
+      path: "/change-password",
+      handler: "password.changePassword",
+      config: {
+        auth: false,
+      },
    }
   ],
 }

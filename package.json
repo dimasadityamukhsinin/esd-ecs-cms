@@ -16,6 +16,7 @@
     "@strapi/plugin-users-permissions": "4.2.3",
     "@strapi/strapi": "4.2.3",
     "@strapi/utils": "^4.3.0",
+    "bcrypt": "^5.0.1",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-populate-deep": "^0.1.2"
