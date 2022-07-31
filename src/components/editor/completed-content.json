@@ -13,6 +13,9 @@
     },
     "Date": {
       "type": "date"
+    },
+    "Score": {
+      "type": "integer"
     }
   }
 }
