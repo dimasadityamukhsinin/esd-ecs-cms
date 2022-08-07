@@ -9,10 +9,16 @@
     "Key": {
       "type": "string"
     },
-    "Question": {
+    "Question_Column_1": {
       "type": "text"
     },
     "Answer": {
+      "type": "text"
+    },
+    "Question_Column_2": {
+      "type": "text"
+    },
+    "Question_Column_3": {
       "type": "text"
     }
   }
