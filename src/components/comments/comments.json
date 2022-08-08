@@ -1,15 +1,22 @@
 {
   "collectionName": "components_comments_comments",
   "info": {
-    "displayName": "Comments"
+    "displayName": "Comments",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "User_Comment": {
-      "displayName": "User_Comment",
-      "type": "component",
-      "repeatable": true,
-      "component": "comments.user-comment"
+    "IdUser": {
+      "type": "string"
+    },
+    "Username": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Comment": {
+      "type": "text"
     }
   }
 }
