@@ -21,6 +21,11 @@
     "Point": {
       "type": "integer",
       "required": true
+    },
+    "Name": {
+      "type": "string",
+      "unique": true,
+      "required": true
     }
   }
 }
