@@ -1,7 +1,8 @@
 {
   "collectionName": "components_editor_fill_in_the_blanks",
   "info": {
-    "displayName": "Fill in the blank"
+    "displayName": "Fill in the blank",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,6 +16,10 @@
     },
     "Description": {
       "type": "richtext"
+    },
+    "Point": {
+      "type": "integer",
+      "required": true
     }
   }
 }

@@ -11,6 +11,9 @@
       "type": "component",
       "repeatable": true,
       "component": "dnd.drop-with-order"
+    },
+    "Point": {
+      "type": "integer"
     }
   }
 }
