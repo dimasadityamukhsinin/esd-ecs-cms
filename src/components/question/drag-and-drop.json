@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_question_drag_and_drops",
+  "info": {
+    "displayName": "Drag and Drop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "default": "drag-drop",
+      "required": true
+    },
+    "Score": {
+      "type": "integer",
+      "required": true
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Content": {
+      "displayName": "DND Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "question.dnd-content"
+    }
+  }
+}

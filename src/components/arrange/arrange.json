@@ -11,10 +11,6 @@
     },
     "Content": {
       "type": "string"
-    },
-    "Point": {
-      "type": "integer",
-      "required": true
     }
   }
 }

@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "completeds",
+  "info": {
+    "singularName": "completed",
+    "pluralName": "completeds",
+    "displayName": "Completed",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IdUser": {
+      "type": "biginteger",
+      "required": true,
+      "unique": false
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "Total_Score": {
+      "required": true,
+      "type": "biginteger"
+    },
+    "modul": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::modul.modul",
+      "inversedBy": "completeds"
+    },
+    "Question": {
+      "type": "dynamiczone",
+      "components": [
+        "question.drag-and-drop"
+      ]
+    }
+  }
+}

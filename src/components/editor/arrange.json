@@ -12,9 +12,37 @@
       "repeatable": true,
       "component": "arrange.arrange"
     },
-    "Name": {
+    "Soal": {
+      "type": "enumeration",
+      "enum": [
+        "soal-1",
+        "soal-2",
+        "soal-3",
+        "soal-4",
+        "soal-5",
+        "soal-6",
+        "soal-7",
+        "soal-8",
+        "soal-9",
+        "soal-10",
+        "soal-11",
+        "soal-12",
+        "soal-13",
+        "soal-14",
+        "soal-15",
+        "soal-16",
+        "soal-17",
+        "soal-18",
+        "soal-19",
+        "soal-20"
+      ]
+    },
+    "type": {
       "type": "string",
-      "unique": true,
+      "default": "arrange"
+    },
+    "Point": {
+      "type": "integer",
       "required": true
     }
   }

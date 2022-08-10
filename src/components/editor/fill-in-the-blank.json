@@ -21,10 +21,11 @@
       "type": "integer",
       "required": true
     },
-    "Name": {
+    "type": {
       "type": "string",
-      "unique": true,
-      "required": true
+      "unique": false,
+      "required": false,
+      "default": "fill"
     }
   }
 }
