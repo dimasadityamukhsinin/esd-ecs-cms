@@ -9,10 +9,7 @@
     "Number": {
       "type": "integer"
     },
-    "Question": {
-      "type": "text"
-    },
-    "Answer": {
+    "Content": {
       "type": "text"
     }
   }
