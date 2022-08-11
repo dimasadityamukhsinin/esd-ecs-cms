@@ -70,14 +70,21 @@
       "type": "string"
     },
     "Photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "major": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::major.major",
+      "inversedBy": "user"
     }
   }
 }
