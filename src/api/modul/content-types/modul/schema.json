@@ -81,6 +81,12 @@
       "relation": "oneToMany",
       "target": "api::completed.completed",
       "mappedBy": "modul"
+    },
+    "major": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::major.major",
+      "inversedBy": "moduls"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "major",
     "pluralName": "majors",
-    "displayName": "Major"
+    "displayName": "Major",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,11 +15,17 @@
     "Name": {
       "type": "string"
     },
-    "user": {
+    "users": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "plugin::users-permissions.user",
-      "inversedBy": "major"
+      "mappedBy": "major"
+    },
+    "moduls": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::modul.modul",
+      "mappedBy": "major"
     }
   }
 }

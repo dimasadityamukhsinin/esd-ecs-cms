@@ -82,9 +82,15 @@
     },
     "major": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToOne",
       "target": "api::major.major",
-      "inversedBy": "user"
+      "inversedBy": "users"
+    },
+    "completeds": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::completed.completed",
+      "mappedBy": "user"
     }
   }
 }
