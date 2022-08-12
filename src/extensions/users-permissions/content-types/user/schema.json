@@ -91,6 +91,11 @@
       "relation": "oneToMany",
       "target": "api::completed.completed",
       "mappedBy": "user"
+    },
+    "Nim": {
+      "type": "biginteger",
+      "unique": true,
+      "required": true
     }
   }
 }
