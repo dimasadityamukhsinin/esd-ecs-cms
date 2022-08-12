@@ -63,12 +63,6 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "First_Name": {
-      "type": "string"
-    },
-    "Last_Name": {
-      "type": "string"
-    },
     "Photo": {
       "type": "media",
       "multiple": false,
@@ -95,6 +89,10 @@
     "Nim": {
       "type": "biginteger",
       "unique": true,
+      "required": true
+    },
+    "Full_Name": {
+      "type": "string",
       "required": true
     }
   }
