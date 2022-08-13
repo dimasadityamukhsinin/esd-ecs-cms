@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_dnd_stack_with_drag_and_drops",
+  "info": {
+    "displayName": "Stack with Drag and Drop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Drop": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dnd.drop"
+    },
+    "Drag": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dnd.drag"
+    }
+  }
+}
