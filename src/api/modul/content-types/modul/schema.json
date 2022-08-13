@@ -49,7 +49,8 @@
         "editor.title",
         "editor.youtube",
         "editor.fill-in-the-blank-right-answer",
-        "dnd.stack-with-drag-and-drop"
+        "dnd.stack-with-drag-and-drop",
+        "editor.audio"
       ]
     },
     "Thumbnail": {
