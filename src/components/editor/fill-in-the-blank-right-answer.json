@@ -1,29 +1,10 @@
 {
-  "collectionName": "components_editor_fill_in_the_blanks",
+  "collectionName": "components_editor_fill_in_the_blank_right_answers",
   "info": {
-    "displayName": "Fill in the blank - Left Answer",
-    "description": ""
+    "displayName": "Fill in the blank - Right Answer"
   },
   "options": {},
   "attributes": {
-    "Verb": {
-      "type": "string"
-    },
-    "question_and_answer": {
-      "type": "component",
-      "repeatable": true,
-      "component": "editor.verb"
-    },
-    "Point": {
-      "type": "integer",
-      "required": true
-    },
-    "type": {
-      "type": "string",
-      "unique": false,
-      "required": false,
-      "default": "fill-left-answer"
-    },
     "Name": {
       "type": "enumeration",
       "enum": [
@@ -49,6 +30,24 @@
         "question-20"
       ],
       "required": true
+    },
+    "type": {
+      "type": "string",
+      "default": "fill-right-answer"
+    },
+    "Point": {
+      "type": "integer",
+      "required": true
+    },
+    "Verb": {
+      "type": "string",
+      "required": true
+    },
+    "question_and_answer": {
+      "displayName": "Fill Right Answer",
+      "type": "component",
+      "repeatable": true,
+      "component": "editor.fill-right-answer"
     }
   }
 }

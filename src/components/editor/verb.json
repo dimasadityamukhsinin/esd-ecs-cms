@@ -1,7 +1,8 @@
 {
   "collectionName": "components_editor_verbs",
   "info": {
-    "displayName": "Verb"
+    "displayName": "Fill Left Answer",
+    "description": ""
   },
   "options": {},
   "attributes": {

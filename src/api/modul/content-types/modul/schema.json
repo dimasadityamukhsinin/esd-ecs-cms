@@ -45,7 +45,8 @@
         "editor.fill-in-the-blank",
         "editor.stack-with-drag-and-drop",
         "editor.title",
-        "editor.youtube"
+        "editor.youtube",
+        "editor.fill-in-the-blank-right-answer"
       ]
     },
     "Thumbnail": {
