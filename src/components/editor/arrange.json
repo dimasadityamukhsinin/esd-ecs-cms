@@ -35,7 +35,8 @@
         "question-18",
         "question-19",
         "question-20"
-      ]
+      ],
+      "required": true
     },
     "type": {
       "type": "string",

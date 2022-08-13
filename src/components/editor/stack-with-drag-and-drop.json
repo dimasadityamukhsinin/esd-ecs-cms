@@ -20,7 +20,7 @@
       "type": "string",
       "unique": false,
       "required": false,
-      "default": "stack"
+      "default": "stack-with-drag"
     },
     "Name": {
       "type": "enumeration",
@@ -45,7 +45,8 @@
         "question-18",
         "question-19",
         "question-20"
-      ]
+      ],
+      "required": true
     }
   }
 }
