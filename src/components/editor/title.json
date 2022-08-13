@@ -1,7 +1,8 @@
 {
   "collectionName": "components_editor_titles",
   "info": {
-    "displayName": "Title"
+    "displayName": "Title",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -34,10 +35,12 @@
         "X",
         "Y",
         "Z"
-      ]
+      ],
+      "required": true
     },
     "Content": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -7,10 +7,12 @@
   "options": {},
   "attributes": {
     "Number": {
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "Content": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }

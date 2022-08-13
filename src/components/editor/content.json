@@ -1,12 +1,14 @@
 {
   "collectionName": "components_editor_contents",
   "info": {
-    "displayName": "Content"
+    "displayName": "Content",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

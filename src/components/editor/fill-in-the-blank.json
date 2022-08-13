@@ -7,7 +7,8 @@
   "options": {},
   "attributes": {
     "Verb": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "question_and_answer": {
       "type": "component",

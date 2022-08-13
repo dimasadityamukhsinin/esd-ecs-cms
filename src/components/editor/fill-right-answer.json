@@ -1,15 +1,18 @@
 {
   "collectionName": "components_editor_fill_right_answers",
   "info": {
-    "displayName": "Fill Right Answer"
+    "displayName": "Fill Right Answer",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Question": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Answer": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

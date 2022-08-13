@@ -13,11 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Slug": {
       "type": "uid",
-      "targetField": "Title"
+      "targetField": "Title",
+      "required": true
     },
     "SEO_Description": {
       "type": "string"
@@ -52,7 +54,7 @@
     "Thumbnail": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -61,21 +63,12 @@
       ]
     },
     "Short_Description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "Assignment_Deadline": {
-      "type": "date"
-    },
-    "Completed": {
-      "type": "component",
-      "repeatable": true,
-      "component": "editor.completed"
-    },
-    "Comments": {
-      "displayName": "Comments",
-      "type": "component",
-      "repeatable": true,
-      "component": "comments.comments"
+      "type": "date",
+      "required": true
     },
     "completeds": {
       "type": "relation",
