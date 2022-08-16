@@ -67,7 +67,7 @@
     "Short_Description": {
       "type": "text",
       "required": true,
-      "maxLength": 30
+      "maxLength": 180
     },
     "Assignment_Deadline": {
       "type": "date",
