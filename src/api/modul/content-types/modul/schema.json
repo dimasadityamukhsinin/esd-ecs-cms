@@ -84,6 +84,12 @@
       "relation": "manyToOne",
       "target": "api::major.major",
       "inversedBy": "moduls"
+    },
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment",
+      "mappedBy": "modul"
     }
   }
 }
