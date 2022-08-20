@@ -32,6 +32,12 @@
     },
     "User": {
       "type": "string"
+    },
+    "Read": {
+      "displayName": "Read",
+      "type": "component",
+      "repeatable": true,
+      "component": "read.read"
     }
   }
 }
