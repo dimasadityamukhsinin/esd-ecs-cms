@@ -27,12 +27,6 @@
       "target": "plugin::users-permissions.user",
       "mappedBy": "notification"
     },
-    "idUser": {
-      "type": "biginteger"
-    },
-    "User": {
-      "type": "string"
-    },
     "Read": {
       "displayName": "Read",
       "type": "component",
