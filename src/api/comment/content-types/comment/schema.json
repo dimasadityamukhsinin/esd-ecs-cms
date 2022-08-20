@@ -35,7 +35,7 @@
       "type": "biginteger",
       "required": true
     },
-    "Modul": {
+    "Modul_Name": {
       "type": "string",
       "required": true
     },
