@@ -26,6 +26,12 @@
       "relation": "oneToMany",
       "target": "plugin::users-permissions.user",
       "mappedBy": "notification"
+    },
+    "idUser": {
+      "type": "biginteger"
+    },
+    "User": {
+      "type": "string"
     }
   }
 }
