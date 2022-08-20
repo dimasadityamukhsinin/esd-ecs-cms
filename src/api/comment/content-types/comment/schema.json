@@ -4,16 +4,14 @@
   "info": {
     "singularName": "comment",
     "pluralName": "comments",
-    "displayName": "Comment"
+    "displayName": "Comment",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "idUser": {
-      "type": "integer"
-    },
     "modul": {
       "type": "relation",
       "relation": "manyToOne",
@@ -28,6 +26,14 @@
     },
     "Content": {
       "type": "text"
+    },
+    "idModul": {
+      "type": "biginteger",
+      "required": true
+    },
+    "idUser": {
+      "type": "biginteger",
+      "required": true
     }
   }
 }
