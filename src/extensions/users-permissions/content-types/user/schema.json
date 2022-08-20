@@ -100,6 +100,12 @@
       "relation": "oneToMany",
       "target": "api::comment.comment",
       "mappedBy": "users_permissions_user"
+    },
+    "notification": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::notification.notification",
+      "inversedBy": "users_permissions_users"
     }
   }
 }
