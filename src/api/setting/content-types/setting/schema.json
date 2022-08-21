@@ -13,34 +13,31 @@
   "pluginOptions": {},
   "attributes": {
     "Website_Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Logo": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "SEO_Description": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "SEO_Keywords": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "SEO_Image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     }
   }

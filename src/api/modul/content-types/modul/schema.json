@@ -21,23 +21,6 @@
       "targetField": "Title",
       "required": true
     },
-    "SEO_Description": {
-      "type": "string"
-    },
-    "SEO_Keywords": {
-      "type": "string"
-    },
-    "SEO_Image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "Editor": {
       "type": "dynamiczone",
       "components": [
@@ -58,10 +41,7 @@
       "multiple": false,
       "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "Short_Description": {
