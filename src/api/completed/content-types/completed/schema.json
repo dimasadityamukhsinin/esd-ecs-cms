@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "IdUser": {
+    "idUser": {
       "type": "biginteger",
       "required": true,
       "unique": false
