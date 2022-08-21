@@ -42,6 +42,14 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "completeds"
+    },
+    "User": {
+      "type": "string",
+      "required": true
+    },
+    "Modul_Name": {
+      "type": "string",
+      "required": true
     }
   }
 }
