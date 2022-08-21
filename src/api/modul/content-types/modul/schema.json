@@ -33,7 +33,8 @@
         "editor.youtube",
         "editor.fill-in-the-blank-right-answer",
         "dnd.stack-with-drag-and-drop",
-        "editor.audio"
+        "editor.audio",
+        "editor.essay"
       ]
     },
     "Thumbnail": {
