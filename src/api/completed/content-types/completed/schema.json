@@ -34,7 +34,7 @@
     "Question": {
       "type": "dynamiczone",
       "components": [
-        "question.drag-and-drop"
+        "question.fill-in-the-blank-left-answer"
       ]
     },
     "user": {
