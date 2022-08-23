@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_question_drag_and_drops",
+  "info": {
+    "displayName": "Drag and Drop"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "Score": {
+      "type": "integer",
+      "required": true
+    },
+    "Content": {
+      "displayName": "Drag and Drop Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "question.drag-and-drop-content"
+    }
+  }
+}
