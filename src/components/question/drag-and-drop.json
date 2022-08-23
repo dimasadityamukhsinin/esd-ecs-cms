@@ -1,7 +1,8 @@
 {
   "collectionName": "components_question_drag_and_drops",
   "info": {
-    "displayName": "Drag and Drop"
+    "displayName": "Drag and Drop",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,7 +12,8 @@
     },
     "type": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "drag-drop"
     },
     "Score": {
       "type": "integer",

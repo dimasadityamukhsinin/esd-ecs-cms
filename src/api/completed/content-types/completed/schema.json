@@ -29,7 +29,8 @@
       "type": "dynamiczone",
       "components": [
         "question.fill-in-the-blank-left-answer",
-        "question.drag-and-drop"
+        "question.drag-and-drop",
+        "question.arrange"
       ]
     },
     "User": {

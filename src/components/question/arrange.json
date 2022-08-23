@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_question_fill_in_the_blank_left_answers",
+  "collectionName": "components_question_arranges",
   "info": {
-    "displayName": "Fill in the blank - Left Answer",
-    "description": ""
+    "displayName": "Arrange"
   },
   "options": {},
   "attributes": {
@@ -13,14 +12,13 @@
     "type": {
       "type": "string",
       "required": true,
-      "default": "fill-left-answer"
+      "default": "arrange"
     },
     "Score": {
       "type": "integer",
       "required": true
     },
     "Content": {
-      "displayName": "Fill in the blank Content",
       "type": "component",
       "repeatable": true,
       "component": "question.fill-in-the-blank-content"
