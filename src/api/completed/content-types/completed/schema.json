@@ -25,24 +25,12 @@
       "required": true,
       "type": "biginteger"
     },
-    "modul": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::modul.modul",
-      "inversedBy": "completeds"
-    },
     "Question": {
       "type": "dynamiczone",
       "components": [
         "question.fill-in-the-blank-left-answer",
         "question.drag-and-drop"
       ]
-    },
-    "user": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "completeds"
     },
     "User": {
       "type": "string",

@@ -54,12 +54,6 @@
       "type": "date",
       "required": true
     },
-    "completeds": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::completed.completed",
-      "mappedBy": "modul"
-    },
     "major": {
       "type": "relation",
       "relation": "manyToOne",
