@@ -16,7 +16,7 @@
       "default": "drag-drop"
     },
     "Score": {
-      "type": "integer",
+      "type": "float",
       "required": true
     },
     "Content": {

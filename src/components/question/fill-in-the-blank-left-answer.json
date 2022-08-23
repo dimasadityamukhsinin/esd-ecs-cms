@@ -16,7 +16,7 @@
       "default": "fill-left-answer"
     },
     "Score": {
-      "type": "integer",
+      "type": "float",
       "required": true
     },
     "Content": {

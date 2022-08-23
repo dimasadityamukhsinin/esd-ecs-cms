@@ -23,7 +23,7 @@
     },
     "Total_Score": {
       "required": true,
-      "type": "biginteger"
+      "type": "float"
     },
     "Question": {
       "type": "dynamiczone",
