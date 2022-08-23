@@ -30,7 +30,8 @@
       "components": [
         "question.fill-in-the-blank-left-answer",
         "question.drag-and-drop",
-        "question.arrange"
+        "question.arrange",
+        "question.fill-in-the-blank-right-answer"
       ]
     },
     "User": {
