@@ -46,7 +46,11 @@
       "type": "string",
       "default": "stack-with-drag-drop"
     },
-    "Point": {
+    "Point_Stack": {
+      "type": "integer",
+      "required": true
+    },
+    "Point_Drop": {
       "type": "integer",
       "required": true
     }
