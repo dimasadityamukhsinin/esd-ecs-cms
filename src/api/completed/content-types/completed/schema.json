@@ -31,7 +31,8 @@
         "question.fill-in-the-blank-left-answer",
         "question.drag-and-drop",
         "question.arrange",
-        "question.fill-in-the-blank-right-answer"
+        "question.fill-in-the-blank-right-answer",
+        "question.stack-with-drag"
       ]
     },
     "User": {
