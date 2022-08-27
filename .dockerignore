@@ -1,3 +1,5 @@
+# .dockerignore
+
 .tmp/
 .cache/
 .git/
