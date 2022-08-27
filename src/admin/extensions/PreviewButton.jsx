@@ -17,7 +17,7 @@ const PreviewButton = () => {
   }
 
   const handlePreview = () => {
-    let previewUrl = `https://esd-ecs.vercel.app/preview/${modifiedData.Slug}`
+    let previewUrl = `https://esd-ecs.vercel.app/preview/${modifiedData.id}`
 
     window.open(previewUrl, '_blank').focus()
   }
