@@ -1,4 +1,5 @@
 import favicon from './extensions/favicon.jpeg';
+import PreviewButton from './extensions/PreviewButton';
 
 
 export default {
@@ -19,10 +20,16 @@ export default {
         "app.components.HomePage.welcomeBlock.content.again": " ",
         'Auth.form.welcome.title': 'Welcome to ESD in ECS!',
         'Auth.form.welcome.subtitle': 'Log in to your ESD in ECS account',
+        "components.PreviewButton.button": "Preview",
       },
     },
     // Disable video tutorials
     tutorials: false,
   },
-  bootstrap() {},
+  bootstrap(app) {
+    app.injectContentManagerComponent("editView", "right-links", {
+      name: "PreviewButton",
+      Component: PreviewButton,
+    });
+  },
 };

@@ -15,20 +15,20 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  'preview-button': {
-    enabled: true,
-    config: {
-      contentTypes: [
-        {
-          uid: 'api::modul.modul',
-          draft: {
-            targetField: 'Slug',
-          },
-          published: {
-            targetField: 'id',
-          },
-        },
-      ],
-    },
-  },
+  // 'preview-button': {
+  //   enabled: true,
+  //   config: {
+  //     contentTypes: [
+  //       {
+  //         uid: 'api::modul.modul',
+  //         draft: {
+  //           targetField: 'Slug',
+  //         },
+  //         published: {
+  //           targetField: 'id',
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
 })
