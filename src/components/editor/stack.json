@@ -1,11 +1,27 @@
 {
-  "collectionName": "components_editor_stack_with_drag_and_drops",
+  "collectionName": "components_editor_stack",
   "info": {
-    "displayName": "Stack with Drag and Drop",
+    "displayName": "Stack",
     "description": ""
   },
   "options": {},
   "attributes": {
+    "Drag": {
+      "displayName": "Drop with order",
+      "type": "component",
+      "repeatable": true,
+      "component": "dnd.drop-with-order"
+    },
+    "Point": {
+      "type": "integer",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "unique": false,
+      "required": false,
+      "default": "stack"
+    },
     "Name": {
       "type": "enumeration",
       "enum": [
@@ -31,29 +47,6 @@
         "question-20"
       ],
       "required": true
-    },
-    "type": {
-      "type": "string",
-      "required": true,
-      "default": "stack-with-drag-drop"
-    },
-    "Point_Stack": {
-      "type": "integer",
-      "required": true
-    },
-    "Point_Drop": {
-      "type": "integer",
-      "required": true
-    },
-    "Drag": {
-      "type": "component",
-      "repeatable": true,
-      "component": "dnd.drag"
-    },
-    "Drop": {
-      "type": "component",
-      "repeatable": true,
-      "component": "dnd.drop"
     }
   }
 }

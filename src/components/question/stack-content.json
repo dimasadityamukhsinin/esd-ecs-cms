@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_question_stack_with_drag_contents",
+  "collectionName": "components_question_stack_contents",
   "info": {
-    "displayName": "Stack with Drag Content"
+    "displayName": "Stack Content"
   },
   "options": {},
   "attributes": {

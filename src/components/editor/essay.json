@@ -39,12 +39,6 @@
     "Point": {
       "type": "integer",
       "required": true
-    },
-    "Essay": {
-      "displayName": "Essay",
-      "type": "component",
-      "repeatable": true,
-      "component": "essay.essay"
     }
   }
 }

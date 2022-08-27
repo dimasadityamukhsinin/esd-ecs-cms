@@ -28,13 +28,13 @@
         "editor.content",
         "editor.drag-and-drop",
         "editor.fill-in-the-blank",
-        "editor.stack-with-drag-and-drop",
+        "comments.stack-with-drag-and-drop",
         "editor.title",
         "editor.youtube",
         "editor.fill-in-the-blank-right-answer",
-        "dnd.stack-with-drag-and-drop",
         "editor.audio",
-        "editor.essay"
+        "editor.essay",
+        "editor.stack-with-drag-and-drop"
       ]
     },
     "Thumbnail": {

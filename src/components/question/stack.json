@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_question_stack_with_drags",
+  "collectionName": "components_question_stacks",
   "info": {
-    "displayName": "Stack with Drag"
+    "displayName": "Stack"
   },
   "options": {},
   "attributes": {
@@ -12,17 +12,17 @@
     "type": {
       "type": "string",
       "required": true,
-      "default": "stack-with-drag"
+      "default": "stack"
     },
     "Score": {
       "type": "float",
       "required": true
     },
     "Content": {
-      "displayName": "Stack with Drag Content",
+      "displayName": "Stack Content",
       "type": "component",
       "repeatable": true,
-      "component": "question.stack-with-drag-content"
+      "component": "question.stack-content"
     }
   }
 }
