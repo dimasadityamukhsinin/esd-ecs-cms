@@ -32,7 +32,8 @@
         "editor.youtube",
         "editor.fill-in-the-blank-right-answer",
         "editor.audio",
-        "editor.stack-with-drag-and-drop"
+        "editor.stack-with-drag-and-drop",
+        "editor.stack"
       ]
     },
     "Thumbnail": {
