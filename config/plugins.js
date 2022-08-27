@@ -21,7 +21,12 @@ module.exports = ({ env }) => ({
       contentTypes: [
         {
           uid: 'api::modul.modul',
-          targetField: 'Slug',
+          draft: {
+            targetField: 'Slug',
+          },
+          published: {
+            targetField: 'id',
+          },
         },
       ],
     },
