@@ -5,7 +5,8 @@
     "description": ""
   },
   "options": {},
-  "attributes": {    "To": {
+  "attributes": {    
+    "Name": {
       "type": "enumeration",
       "enum": [
         "drop-1",
