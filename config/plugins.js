@@ -14,21 +14,5 @@ module.exports = ({ env }) => ({
         delete: {},
       },
     },
-  },
-  // 'preview-button': {
-  //   enabled: true,
-  //   config: {
-  //     contentTypes: [
-  //       {
-  //         uid: 'api::modul.modul',
-  //         draft: {
-  //           targetField: 'Slug',
-  //         },
-  //         published: {
-  //           targetField: 'id',
-  //         },
-  //       },
-  //     ],
-  //   },
-  // },
+  }
 })
