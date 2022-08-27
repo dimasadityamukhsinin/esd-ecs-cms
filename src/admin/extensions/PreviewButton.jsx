@@ -7,7 +7,6 @@ import { useIntl } from 'react-intl'
 const PreviewButton = () => {
   const { formatMessage } = useIntl()
   const { modifiedData, layout } = useCMEditViewDataManager()
-  console.log(layout.apiID)
 
   if (
     !modifiedData.publishedAt ||
