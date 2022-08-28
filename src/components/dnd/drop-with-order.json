@@ -6,12 +6,34 @@
   },
   "options": {},
   "attributes": {
-    "Number": {
-      "type": "integer",
-      "required": true
-    },
     "Content": {
       "type": "text",
+      "required": true
+    },
+    "Name": {
+      "type": "enumeration",
+      "enum": [
+        "stack-1",
+        "stack-2",
+        "stack-3",
+        "stack-4",
+        "stack-5",
+        "stack-6",
+        "stack-7",
+        "stack-8",
+        "stack-9",
+        "stack-10",
+        "stack-11",
+        "stack-12",
+        "stack-13",
+        "stack-14",
+        "stack-15",
+        "stack-16",
+        "stack-17",
+        "stack-18",
+        "stack-19",
+        "stack-20"
+      ],
       "required": true
     }
   }
