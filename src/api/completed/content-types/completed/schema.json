@@ -32,7 +32,8 @@
         "question.drag-and-drop",
         "question.arrange",
         "question.fill-in-the-blank-right-answer",
-        "question.stack"
+        "question.stack",
+        "question.stack-with-drag-and-drop"
       ]
     },
     "User": {

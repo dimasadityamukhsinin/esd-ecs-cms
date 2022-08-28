@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_question_stack_with_drag_and_drops",
+  "info": {
+    "displayName": "Stack with Drag and Drop"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "default": "stack-with-drag-drop",
+      "required": true
+    },
+    "Score": {
+      "type": "float",
+      "required": true
+    },
+    "Drag_Drop": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.drag-and-drop-content"
+    },
+    "Stack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.stack-content"
+    }
+  }
+}
