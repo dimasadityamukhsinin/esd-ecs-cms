@@ -1,14 +1,11 @@
 {
   "collectionName": "components_question_stack_contents",
   "info": {
-    "displayName": "Stack Content"
+    "displayName": "Stack Content",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Number": {
-      "type": "integer",
-      "required": true
-    },
     "Content": {
       "type": "text",
       "required": true
@@ -16,6 +13,10 @@
     "Answer": {
       "type": "boolean",
       "default": false,
+      "required": true
+    },
+    "Name": {
+      "type": "string",
       "required": true
     }
   }
