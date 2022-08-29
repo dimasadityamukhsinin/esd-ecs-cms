@@ -15,7 +15,7 @@
     "Content": {
       "type": "text"
     },
-    "idModul": {
+    "idModule": {
       "type": "biginteger",
       "required": true
     },
@@ -23,7 +23,7 @@
       "type": "biginteger",
       "required": true
     },
-    "Modul_Name": {
+    "Module_Name": {
       "type": "string",
       "required": true
     },

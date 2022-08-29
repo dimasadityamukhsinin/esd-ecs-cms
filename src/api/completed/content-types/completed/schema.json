@@ -40,11 +40,11 @@
       "type": "string",
       "required": true
     },
-    "Modul_Name": {
+    "Module_Name": {
       "type": "string",
       "required": true
     },
-    "idModul": {
+    "idModule": {
       "type": "integer",
       "required": true
     }

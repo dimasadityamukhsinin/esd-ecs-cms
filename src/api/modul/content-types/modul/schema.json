@@ -4,7 +4,7 @@
   "info": {
     "singularName": "modul",
     "pluralName": "moduls",
-    "displayName": "Modul",
+    "displayName": "Module",
     "description": ""
   },
   "options": {
@@ -57,7 +57,7 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::major.major",
-      "inversedBy": "moduls"
+      "inversedBy": "modules"
     }
   }
 }

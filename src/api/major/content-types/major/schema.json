@@ -23,7 +23,7 @@
       "target": "plugin::users-permissions.user",
       "mappedBy": "major"
     },
-    "moduls": {
+    "modules": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::modul.modul",

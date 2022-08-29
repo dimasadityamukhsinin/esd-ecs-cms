@@ -10,7 +10,7 @@ const PreviewButton = () => {
 
   if (
     !modifiedData.publishedAt ||
-    layout.apiID !== 'modul' ||
+    layout.apiID !== 'module' ||
     !modifiedData.Slug
   ) {
     return null
