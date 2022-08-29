@@ -39,6 +39,12 @@
     },
     "Liked": {
       "type": "biginteger"
+    },
+    "Liked_User": {
+      "displayName": "Liked User",
+      "type": "component",
+      "repeatable": true,
+      "component": "comments.liked-user"
     }
   }
 }

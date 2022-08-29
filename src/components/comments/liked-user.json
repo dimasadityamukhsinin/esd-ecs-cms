@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_comments_liked_users",
+  "info": {
+    "displayName": "Liked User"
+  },
+  "options": {},
+  "attributes": {
+    "idUser": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}
