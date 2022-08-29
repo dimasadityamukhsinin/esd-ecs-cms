@@ -14,5 +14,13 @@ module.exports = ({ env }) => ({
         delete: {},
       },
     },
-  }
+  },
+  // comments: {
+  //   enabled: true,
+  //   config: {
+  //     badWords: false,
+  //     moderatorRoles: ["Authenticated"],
+  //     approvalFlow: ["api::modul.modul"],
+  //   },
+  // },
 })

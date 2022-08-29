@@ -78,12 +78,6 @@
       "type": "string",
       "required": true
     },
-    "comments": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::comment.comment",
-      "mappedBy": "users_permissions_user"
-    },
     "notification": {
       "type": "relation",
       "relation": "manyToOne",

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_comments_replies",
+  "info": {
+    "displayName": "Reply",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "idUser": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Content": {
+      "type": "text",
+      "required": true
+    },
+    "Liked": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}
