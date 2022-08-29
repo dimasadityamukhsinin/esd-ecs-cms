@@ -16,7 +16,7 @@
     },
     "Liked": {
       "type": "biginteger",
-      "required": true
+      "required": false
     },
     "Liked_User": {
       "type": "component",
