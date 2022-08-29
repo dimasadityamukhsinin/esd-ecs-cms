@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_editor_questions",
+  "info": {
+    "displayName": "Question"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "enumeration",
+      "enum": [
+        "essay-1",
+        "essay-2",
+        "essay-3",
+        "essay-4",
+        "essay-5",
+        "essay-6",
+        "essay-7",
+        "essay-8",
+        "essay-9",
+        "essay-10",
+        "essay-11",
+        "essay-12",
+        "essay-13",
+        "essay-14",
+        "essay-15",
+        "essay-16",
+        "essay-17",
+        "essay-18",
+        "essay-19",
+        "essay-20"
+      ],
+      "required": true
+    },
+    "Content": {
+      "type": "text",
+      "required": true
+    },
+    "Answer": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
