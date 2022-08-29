@@ -17,6 +17,11 @@
     "Liked": {
       "type": "biginteger",
       "required": true
+    },
+    "Liked_User": {
+      "type": "component",
+      "repeatable": true,
+      "component": "comments.liked-user"
     }
   }
 }
