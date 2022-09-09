@@ -16,7 +16,7 @@
       "component": "editor.verb"
     },
     "Point": {
-      "type": "integer",
+      "type": "float",
       "required": true
     },
     "type": {

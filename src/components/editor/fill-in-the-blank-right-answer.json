@@ -1,7 +1,8 @@
 {
   "collectionName": "components_editor_fill_in_the_blank_right_answers",
   "info": {
-    "displayName": "Fill in the blank - Right Answer"
+    "displayName": "Fill in the blank - Right Answer",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -36,7 +37,7 @@
       "default": "fill-right-answer"
     },
     "Point": {
-      "type": "integer",
+      "type": "float",
       "required": true
     },
     "Verb": {

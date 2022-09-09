@@ -43,7 +43,7 @@
       "default": "arrange"
     },
     "Point": {
-      "type": "integer",
+      "type": "float",
       "required": true
     }
   }

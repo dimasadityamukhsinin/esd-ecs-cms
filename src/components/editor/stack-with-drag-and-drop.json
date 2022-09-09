@@ -38,11 +38,11 @@
       "default": "stack-with-drag-drop"
     },
     "Point_Stack": {
-      "type": "integer",
+      "type": "float",
       "required": true
     },
     "Point_Drop": {
-      "type": "integer",
+      "type": "float",
       "required": true
     },
     "Drag": {

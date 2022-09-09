@@ -19,7 +19,7 @@
       "component": "dnd.drop"
     },
     "Point": {
-      "type": "integer",
+      "type": "float",
       "required": true
     },
     "type": {

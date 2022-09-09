@@ -13,7 +13,7 @@
       "component": "dnd.drop-with-order"
     },
     "Point": {
-      "type": "integer",
+      "type": "float",
       "required": true
     },
     "type": {
