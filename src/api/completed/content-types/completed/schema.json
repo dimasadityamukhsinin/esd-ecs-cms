@@ -33,7 +33,8 @@
         "question.arrange",
         "question.fill-in-the-blank-right-answer",
         "question.stack",
-        "question.stack-with-drag-and-drop"
+        "question.stack-with-drag-and-drop",
+        "question.essay"
       ]
     },
     "User": {

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_question_essays",
+  "info": {
+    "displayName": "Essay"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "essay"
+    },
+    "Score": {
+      "type": "float",
+      "required": true
+    },
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.fill-in-the-blank-content"
+    }
+  }
+}
