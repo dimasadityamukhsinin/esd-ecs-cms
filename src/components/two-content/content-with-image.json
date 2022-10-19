@@ -1,15 +1,14 @@
 {
-  "collectionName": "components_two_content_contents",
+  "collectionName": "components_two_content_content_with_images",
   "info": {
-    "displayName": "Content without Image",
-    "description": ""
+    "displayName": "Content with Image"
   },
   "options": {},
   "attributes": {
     "left_content": {
       "type": "component",
       "repeatable": false,
-      "component": "two-content.batch-content"
+      "component": "two-content.image-content"
     },
     "right_content": {
       "type": "component",

@@ -1,20 +1,18 @@
 {
   "collectionName": "components_two_content_image_contents",
   "info": {
-    "displayName": "Image Content"
+    "displayName": "Image Content",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

@@ -27,9 +27,10 @@
       "component": "two-content.content"
     },
     "content4": {
+      "displayName": "Content with Image",
       "type": "component",
       "repeatable": false,
-      "component": "two-content.content"
+      "component": "two-content.content-with-image"
     }
   }
 }
