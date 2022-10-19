@@ -1,16 +1,21 @@
 {
   "collectionName": "components_two_content_contents",
   "info": {
-    "displayName": "content"
+    "displayName": "content",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "content": {
-      "displayName": "batch_content",
+    "left_content": {
+      "displayName": "Image Content",
       "type": "component",
-      "repeatable": true,
-      "component": "two-content.batch-content",
-      "max": 2
+      "repeatable": false,
+      "component": "two-content.image-content"
+    },
+    "right_content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "two-content.batch-content"
     }
   }
 }

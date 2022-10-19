@@ -1,7 +1,8 @@
 {
   "collectionName": "components_two_content_batch_contents",
   "info": {
-    "displayName": "batch_content"
+    "displayName": "Text Content",
+    "description": ""
   },
   "options": {},
   "attributes": {
