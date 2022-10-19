@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_two_content_contents",
+  "info": {
+    "displayName": "content"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "displayName": "batch_content",
+      "type": "component",
+      "repeatable": true,
+      "component": "two-content.batch-content",
+      "max": 2
+    }
+  }
+}

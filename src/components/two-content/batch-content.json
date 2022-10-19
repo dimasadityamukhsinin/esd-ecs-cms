@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_two_content_batch_contents",
+  "info": {
+    "displayName": "batch_content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
