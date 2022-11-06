@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_question_drag_and_drop_contents",
+  "collectionName": "components_question_essay_contents",
   "info": {
-    "displayName": "Drag and Drop Content",
+    "displayName": "Essay Content",
     "description": ""
   },
   "options": {},
@@ -11,13 +11,16 @@
       "required": true
     },
     "Key": {
-      "type": "string",
-      "required": false
+      "type": "string"
     },
     "Answer": {
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "Index": {
+      "required": true,
+      "type": "integer"
     }
   }
 }
