@@ -41,6 +41,15 @@
     "Content": {
       "type": "string",
       "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "assessment": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

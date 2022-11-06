@@ -48,6 +48,11 @@
     "idModule": {
       "type": "integer",
       "required": true
+    },
+    "finish": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
