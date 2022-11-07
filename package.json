@@ -21,6 +21,7 @@
     "bcrypt": "^5.0.1",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
+    "strapi-plugin-import-export-entries": "^1.18.0",
     "strapi-plugin-populate-deep": "^0.1.2",
     "yarn": "^1.22.19"
   },
