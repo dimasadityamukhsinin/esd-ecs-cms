@@ -1,0 +1,7 @@
+Postgres cluster esd-ecs-cms-db created
+  Username:    postgres
+  Password:    PL3D0GXFZHUvmGG
+  Hostname:    esd-ecs-cms-db.internal
+  Proxy port:  5432
+  Postgres port:  5433
+  Connection string: postgres://postgres:PL3D0GXFZHUvmGG@esd-ecs-cms-db.internal:5432
